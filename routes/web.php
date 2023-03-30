@@ -43,4 +43,4 @@ Route::get(
 );
 
 //Halaman single post
-Route::get('/post/{slug}', [PostController::class, 'show']);
+Route::get('/posts/{post:slug}', [PostController::class, 'show']);
