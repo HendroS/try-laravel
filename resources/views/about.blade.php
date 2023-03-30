@@ -4,6 +4,6 @@
 
 <h3>{{ $name }}</h3>
 <p>{{ $email }}</p>
-<img src="{{ $image }}" width="200" alt="{{ $name }}">
+<img class="img-thumb rounded-circle" src="{{ $image }}" width="200" height="200" alt="{{ $name }}">
     
 @endsection
